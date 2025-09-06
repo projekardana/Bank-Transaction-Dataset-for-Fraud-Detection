@@ -50,7 +50,7 @@ Seiring dengan meningkatnya volume transaksi digital, kasus penipuan finansial j
 
 ## 📎 Dataset
 
-Dataset bersumber dari [**Kaggle** / sumber lainnya] (sertakan link jika publik), dan telah melalui proses anonymisasi dan pembersihan agar dapat digunakan untuk penelitian dan pengembangan model.
+Dataset bersumber dari **Kaggle** dan telah melalui proses anonymisasi dan pembersihan agar dapat digunakan untuk penelitian dan pengembangan model.
 
 Link Dataset : https://www.kaggle.com/api/v1/datasets/download/valakhorasani/bank-transaction-dataset-for-fraud-detection
 
