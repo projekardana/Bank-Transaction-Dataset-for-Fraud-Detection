@@ -2,10 +2,13 @@
 
 Proyek ini bertujuan untuk membangun model Machine Learning yang mampu mendeteksi aktivitas transaksi penipuan (fraud) secara otomatis berdasarkan data historis. Deteksi dini terhadap transaksi mencurigakan sangat penting bagi industri perbankan dalam meminimalisir risiko kerugian finansial dan menjaga kepercayaan pelanggan.
 
+---
+
 ## 📌 Latar Belakang
 
-Seiring dengan meningkatnya volume transaksi digital, kasus penipuan finansial juga mengalami peningkatan. Banyaknya data yang tidak seimbang (transaksi sah jauh lebih banyak daripada transaksi penipuan) menjadi tantangan utama dalam membangun model prediktif. Oleh karena itu, proyek ini tidak hanya berfokus pada akurasi model, tetapi juga pada penanganan data imbalance dan pemilihan metrik evaluasi yang tepat seperti Recall dan ROC-AUC.
+Seiring dengan meningkatnya volume transaksi digital, kasus penipuan finansial juga mengalami peningkatan. Banyaknya data yang tidak seimbang (transaksi sah jauh lebih banyak daripada transaksi penipuan) menjadi tantangan utama dalam membangun model prediktif. Oleh karena itu, proyek ini tidak hanya berfokus pada akurasi model, tetapi juga pada penanganan data imbalance dan pemilihan metrik evaluasi yang tepat seperti Recall. 
 
+---
 
 ## 🔧 Tools & Teknologi
 
@@ -13,8 +16,9 @@ Seiring dengan meningkatnya volume transaksi digital, kasus penipuan finansial j
 - Pandas, NumPy
 - Scikit-learn, XGBoost
 - Matplotlib, Seaborn
-- Imbalanced-learn (SMOTE)
 - Jupyter Notebook
+
+---
 
 ## 🧪 Proses & Metodologi
 
@@ -35,10 +39,14 @@ Seiring dengan meningkatnya volume transaksi digital, kasus penipuan finansial j
 5. **Model Deployment (Opsional)**  
    - Model disimpan sebagai file `.h5` untuk integrasi lebih lanjut.
 
+---
+
 ## 📊 Hasil & Insight
 
 - Model XGBoost memberikan performa terbaik dengan **Recall** yang tinggi pada kelas minoritas (fraud).
 - Fitur tertentu seperti `transaction_amount`, `account_age`, dan `transaction_time` menjadi indikator penting dalam mendeteksi penipuan.
+
+---
 
 ## 📎 Dataset
 
@@ -46,6 +54,7 @@ Dataset bersumber dari [**Kaggle** / sumber lainnya] (sertakan link jika publik)
 
 Link Dataset : https://www.kaggle.com/api/v1/datasets/download/valakhorasani/bank-transaction-dataset-for-fraud-detection
 
+----
 
 ## 🚀 Cara Menjalankan
 
@@ -55,3 +64,15 @@ Link Dataset : https://www.kaggle.com/api/v1/datasets/download/valakhorasani/ban
    cd fraud-detection-project
    ```
 
+---
+
+## 📎 Contact
+
+Proyek ini dikembangkan untuk keperluan pembelajaran dan eksplorasi data analitik sekaligus dalam memperkuat
+portofolio di bidang Data Science
+
+Silakan hubungi saya jika ada keperluan :
+
+- Email: mdendiardana@gmail.com
+- LinkedIn: linkedin.com/in/mdendiardana
+- GitHub: github.com/projekardana
